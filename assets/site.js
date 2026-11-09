@@ -31,6 +31,22 @@
   booktitle = {2025 IEEE International Joint Conference on Biometrics (IJCB)},
   year = {2025},
   doi = {10.1109/IJCB65343.2025.11411523}
+}`,
+      mindskill: `@misc{li2026mindskill,
+  title = {MIND-Skill: Quality-Guaranteed Skill Generation via Multi-Agent Induction and Deduction},
+  author = {Li, Yixuan and Cai, Mingshu and Xiao, Ziyang and Wang, Wanyuan and Deng, Yanchen and An, Bo},
+  year = {2026},
+  eprint = {2605.08670},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2605.08670}
+}`,
+      oragentbench: `@misc{li2026oragentbench,
+  title = {ORAgentBench: Can LLM Agents Solve Challenging Operations Research Tasks End to End?},
+  author = {Li, Jiajun and Cai, Mingshu and Li, Yixuan and Ding, Yu and Hou, Ran and Nie, Guanyu and Han, Xiongwei and Wang, Wanyuan},
+  year = {2026},
+  eprint = {2606.19787},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2606.19787}
 }`
     };
     let language = 'en';

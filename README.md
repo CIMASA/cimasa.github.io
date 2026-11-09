@@ -4,30 +4,34 @@ Personal academic website at https://cimasa.github.io/.
 
 ## Layout
 
-A light gray background, a sticky profile sidebar with a circular portrait, blue accents, and white publication cards. The layout follows the visual reference at https://icoz69.github.io/. News and Lab Gallery are omitted.
+A light gray background, a sticky profile sidebar with a circular portrait, blue accents, and white publication cards. The visual reference is https://icoz69.github.io/. News and Lab Gallery are omitted.
 
-The supplied portrait is stored unchanged at `assets/mingshu-cai.jpg`; CSS controls its circular framing. Publication illustrations are conceptual diagrams, not experimental results.
+The supplied portrait is unchanged at `assets/mingshu-cai.jpg`; CSS controls its circular framing. Each publication thumbnail is extracted from a figure in the corresponding paper. Clicking a thumbnail opens its larger version.
 
 ## Files
 
-- `index.html`: bilingual profile, research, publications, education, and research support.
+- `index.html`: bilingual profile, academic service, all six owner-confirmed publications, education, and internship.
 - `assets/site.css`: desktop and mobile layouts.
 - `assets/site.js`: language preference, publication filters, and BibTeX dialog.
-- `publications.bib`: downloadable publication citations.
-- `.nojekyll`: serve the static files directly on GitHub Pages.
+- `assets/publications/`: figures extracted from the paper PDFs listed below.
+- `publications.bib`: downloadable citations for all six papers.
+- `.nojekyll`: serve static files directly on GitHub Pages.
 
 GitHub Pages publishes from `main` at the repository root. No build step or package installation is required.
 
-Update `data-en` and `data-zh` together when editing text. Keep the citations in `assets/site.js` and `publications.bib` consistent. Change the CSS/JS version strings in `index.html` when updating their contents.
+Update `data-en` and `data-zh` together when editing text. Keep citations in `assets/site.js` and `publications.bib` consistent. Change the CSS/JS version strings in `index.html` when updating their contents.
 
 ## Profile and publication sources
 
-The profile, education, IJCB oral presentation, and W-SPRING-AI information come from the owner's supplied materials. The publication metadata and links are retained from the previous site:
+Profile, education, academic service, IJCB oral presentation, internship, and contact information were supplied by the owner. The internship start date is 2026.04. The owner confirmed that the six listed papers cover their Scholar list on 2026-11-09. Publication metadata was checked against the papers' arXiv records; preprints are labeled explicitly. The full author list is shown, with Mingshu Cai in bold.
 
-- https://arxiv.org/abs/2603.08809
-- https://doi.org/10.1109/TMM.2026.3651097
-- https://arxiv.org/abs/2512.21015
-- https://arxiv.org/abs/2605.29509
-- https://arxiv.org/abs/2512.21032
+| Thumbnail | Source PDF | PDF page | Figure |
+| --- | --- | --- | --- |
+| `watermark.webp` | https://arxiv.org/pdf/2603.08809 | 3 | 2 |
+| `fluency.webp` | https://arxiv.org/pdf/2512.21015 | 1 | 1 |
+| `kgedit.webp` | https://arxiv.org/pdf/2605.29509 | 1 | 1 |
+| `thermal.webp` | https://arxiv.org/pdf/2512.21032 | 3 | 2 |
+| `mindskill.webp` | https://arxiv.org/pdf/2605.08670 | 4 | 1 |
+| `oragentbench.webp` | https://arxiv.org/pdf/2606.19787 | 2 | 1 |
 
-No unpublished research, unconfirmed appointments, or citation counts are included.
+Published versions: https://doi.org/10.1109/TMM.2026.3651097 and https://doi.org/10.1109/IJCB65343.2025.11411523.
